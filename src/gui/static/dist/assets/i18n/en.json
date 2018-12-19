@@ -1,6 +1,6 @@
 {
   "common": {
-    "coin-id": "GLB",
+    "coin-id": "HHC",
     "coin-hours": "Coin Hours",
     "loading": "Loading...",
     "new": "New",
@@ -19,14 +19,14 @@
     "wallets": "Wallets",
     "send": "Send",
     "history": "History",
-    "buy-coin": "Buy GLB",
+    "buy-coin": "Buy HHC",
     "network": "Networking",
     "blockchain": "Blockchain",
     "outputs": "Outputs",
     "transactions": "Transactions",
     "pending-txs": "Pending Transactions",
     "backup": "Backup Wallet",
-    "explorer": "GLBrain Explorer",
+    "explorer": "HHC Explorer",
     "seed": "Wallet Seed",
     "qrcode": "QR Code"
   },
@@ -60,28 +60,28 @@
     "select-address": "Select address",
     "generate": "Generate",
     "deposit-location": "Deposit Location",
-    "deposit-location-desc": "Choose a wallet where you'd like us to deposit your GLB after we receive your Bitcoin.",
+    "deposit-location-desc": "Choose a wallet where you'd like us to deposit your HHC after we receive your Bitcoin.",
     "make-choice": "Make a choice",
-    "wallets-desc": "Each time a new wallet and address are selected, a new BTC address is generated. A single GLB address can have up to 5 BTC addresses assigned to it.",
+    "wallets-desc": "Each time a new wallet and address are selected, a new BTC address is generated. A single HHC address can have up to 5 BTC addresses assigned to it.",
     "send": "Send Bitcoin",
-    "send-desc": "Send Bitcoin to the address below. Once received, we will deposit the GLB to a new address in the wallet selected above at the current rate of {{ rate }} GLB/BTC.",
-    "fraction-warning": "Only send multiple of the GLB/BTC rate! GLB is sent in whole number; fractional GLB is not sent!",
-    "receive": "Receive GLB",
-    "receive-desc": "After receiving your Bitcoin, we'll send you your GLB. It may take anywhere between 20 minutes and an hour to receive your GLB.",
+    "send-desc": "Send Bitcoin to the address below. Once received, we will deposit the HHC to a new address in the wallet selected above at the current rate of {{ rate }} HHC/BTC.",
+    "fraction-warning": "Only send multiple of the HHC/BTC rate! HHC is sent in whole number; fractional HHC is not sent!",
+    "receive": "Receive HHC",
+    "receive-desc": "After receiving your Bitcoin, we'll send you your HHC. It may take anywhere between 20 minutes and an hour to receive your HHC.",
     "status-button": "Status:",
     "check-status-button": "Check Status",
     "new-order-button": "New Order"
   },
 
   "wizard": {
-    "wallet-desc": "If you don't have a GLB wallet, use the generated seed to create a new one. If you already have a wallet, toggle over to \"Load Wallet\" and enter your seed.",
+    "wallet-desc": "If you don't have a HHC wallet, use the generated seed to create a new one. If you already have a wallet, toggle over to \"Load Wallet\" and enter your seed.",
     "encrypt-desc": "Increase security of your wallet by encrypting it. By entering a password below, your wallet will be encrypted. Only those with the password will be able access the wallet and remove funds.",
     "finish-button": "Finish",
     "back-button": "Back",
 
     "confirm": {
       "title": "Safeguard your seed!",
-      "desc": "We want to make sure that you wrote down your seed and stored it in a safe place. If you forget your seed, you WILL NOT be able to recover your GLB wallet!",
+      "desc": "We want to make sure that you wrote down your seed and stored it in a safe place. If you forget your seed, you WILL NOT be able to recover your HHC wallet!",
       "checkbox": "It’s safe, I swear.",
       "button": "Continue"
     }
@@ -194,8 +194,8 @@
     "blocks": "Number of blocks",
     "time": "Timestamp of last block",
     "hash": "Hash of last block",
-    "current-supply": "Current GLB supply",
-    "total-supply": "Total GLB supply",
+    "current-supply": "Current HHC supply",
+    "total-supply": "Total HHC supply",
     "current-coinhour-supply": "Current Coin Hours supply",
     "total-coinhour-supply": "Total Coin Hours supply"
   },
@@ -238,7 +238,7 @@
     "done": "Completed",
     "waiting-confirm": "Waiting for confirmation",
     "waiting-deposit": "Waiting for Bitcoin deposit",
-    "waiting-send": "Waiting to send GLB",
+    "waiting-send": "Waiting to send HHC",
     "unknown": "Unknown"
   }
 }

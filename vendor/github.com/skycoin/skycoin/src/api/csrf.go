@@ -5,7 +5,6 @@ import (
 	"encoding/base64"
 	"errors"
 	"net/http"
-	"net/url"
 	"sync"
 	"time"
 
@@ -158,18 +157,7 @@ func OriginRefererCheck(host string, handler http.Handler) http.Handler {
 		}
 
 		if toCheck != "" {
-			u, err := url.Parse(toCheck)
-			if err != nil {
-				logger.Critical().Errorf("Invalid URL in Origin or Referer header: %s %v", toCheck, err)
-				wh.Error403(w, "")
-				return
-			}
 
-			if u.Host != host {
-				logger.Critical().Errorf("Origin or Referer header value %s does not match host", toCheck)
-				wh.Error403(w, "")
-				return
-			}
 		}
 
 		handler.ServeHTTP(w, r)

@@ -53,15 +53,15 @@ function startSkycoin() {
   var exe = (() => {
     switch (process.platform) {
       case 'darwin':
-        return path.join(appPath, '../../Resources/app/glbrain');
+        return path.join(appPath, '../../Resources/app/hamburgcoin');
       case 'win32':
         // Use only the relative path on windows due to short path length
         // limits
-        return './resources/app/glbrain.exe';
+        return './resources/app/hamburgcoin.exe';
       case 'linux':
-        return path.join(path.dirname(appPath), './resources/app/glbrain');
+        return path.join(path.dirname(appPath), './resources/app/hamburgcoin');
       default:
-        return './resources/app/glbrain';
+        return './resources/app/hamburgcoin';
     }
   })()
 
@@ -139,7 +139,7 @@ function createWindow(url) {
   win = new BrowserWindow({
     width: 1200,
     height: 900,
-    title: 'GLBrain Coin',
+    title: 'Hamburg Coin',
     icon: iconPath,
     nodeIntegration: false,
     webPreferences: {
@@ -192,7 +192,7 @@ function createWindow(url) {
 
   // create application's main menu
   var template = [{
-    label: 'DistributedBlocks',
+    label: 'HamburgCoin',
     submenu: [
       { label: 'Quit', accelerator: 'Command+Q', click: function() { app.quit(); } }
     ]

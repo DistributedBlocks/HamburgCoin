@@ -1,13 +1,13 @@
 {
-    "name": "glbraincoin",
-    "productName": "GlbrainCoin",
+    "name": "hamburgcoin",
+    "productName": "HamburgCoin",
     "author": "GLbrain Coin",
     "main": "src/electron-main.js",
     "version": "0.24.1",
-    "description": "Glbrain wallet",
+    "description": "HamburgCoin wallet",
     "license": "MIT",
     "build": {
-        "appId": "org.glbrain.glbrain",
+        "appId": "org.hamburgcoin.hamburgcoin",
         "nsis": {
             "oneClick": false,
             "allowToChangeInstallationDirectory": true

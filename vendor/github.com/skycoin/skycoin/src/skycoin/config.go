@@ -195,7 +195,7 @@ func NewNodeConfig(mode string, node NodeParameters) *NodeConfig {
 		// Remote web interface
 		WebInterface:      true,
 		WebInterfacePort:  node.WebInterfacePort,
-		WebInterfaceAddr:  "127.0.0.1",
+		WebInterfaceAddr:  "0.0.0.0",
 		WebInterfaceCert:  "",
 		WebInterfaceKey:   "",
 		WebInterfaceHTTPS: false,
